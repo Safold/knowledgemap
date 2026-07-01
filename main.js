@@ -84,16 +84,20 @@ function processData(data) {
     
     
     document.getElementById('info-panel').classList.add('open')
+  })
+      
   
-  
-    document.getElementById('node-related').addEventListener('click', function(event){
-      if (event.target.tagName === 'A'){
-        const id = event.target.dataset.id
-        network.setSelection({nodes: [id]})
-        network.focus(id, {scale: 1.5, locked: true, animation: true})
+  document.getElementById('node-related').addEventListener('click', function(event){
+    if (event.target.tagName === 'A'){
+      const id = event.target.dataset.id
+      network.setSelection({nodes: [id]})
+      network.focus(id, {scale: 1.5, locked: false, animation: {duration: 1000, easingFunction: 'easeInOutQuad'}})
+           
+        
       }
     })
-  })}
+
+}
 
 
 // Теперь мне нужно чтобы при нажатии на ссылку срабатывала setSelection и focus из vis.js. Помимо этого срабатывала смена контекста как при клике на узел
