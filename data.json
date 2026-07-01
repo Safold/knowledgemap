@@ -36,7 +36,7 @@
                 "id": "Biochem",
                 "title": "Биохимия",
                 "parent": "Bio",
-                "related": ["Org"],
+                "related": ["Org", "Anorg"],
                 "tags": [""],
                 "description": "Наука, изучающая химический состав живых организмов, структуру биомолекус и химические процессы"
         },
@@ -44,7 +44,7 @@
                 "id": "Phys",
                 "title": "Физика",
                 "parent": "",
-                "related": [""],
+                "related": ["Org"],
                 "tags": [""],
                 "description": "Наука об общих законах природы"
         },
