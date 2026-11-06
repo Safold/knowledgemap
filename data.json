@@ -1,58 +1,85 @@
 [
-        {
-                "id": "Chem",
-                "title": "Химия",
-                "parent": "",
-                "related": [""],
-                "description": "Наука веществах и их взаимодействиях"
-        },
-        {
-                "id": "Org",
-                "title": "Органическая химия",
-                "parent": "Chem",
-                "related": [""],
-                "description": "Раздел химии, изучающий соединения углерода с другими элементами"
-        },
-        {
-                "id": "Anorg",
-                "title": "Неорганическая химия",
-                "parent": "Chem",
-                "related": [""],
-                "description": "Раздел химии, изучающий строение, свойства и реакции всех химических элементов и соединений, кроме тех, что относятся к органическим"
-        },
-        {
-                "id": "Bio",
-                "title": "Биология",
-                "parent": "",
-                "related": [""],
-                "description": "Наука о живых организмах"
-        },
-        {
-                "id": "Biochem",
-                "title": "Биохимия",
-                "parent": "Bio",
-                "related": ["Org", "Anorg"],
-                "description": "Наука, изучающая химический состав живых организмов, структуру биомолекус и химические процессы"
-        },
-        {
-                "id": "Phys",
-                "title": "Физика",
-                "parent": "",
-                "related": ["Org"],
-                "description": "Наука об общих законах природы"
-        },
-        {
-                "id": "Philosophy",
-                "title": "Философия",
-                "parent": "",
-                "related": [""],
-                "description": "Любовь к мудрости"
-        },
-        {
-                "id": "History",
-                "title": "История",
-                "parent": "",
-                "related": [""],
-                "description": "Наука об человеческом прошлом"
-        }
+  {
+    "id": "Chem",
+    "title": "Химия",
+    "parent": "",
+    "related": [
+      ""
+    ],
+    "description": "Наука веществах и их взаимодействиях"
+  },
+  {
+    "id": "Org",
+    "title": "Органическая химия",
+    "parent": "Chem",
+    "related": [
+      ""
+    ],
+    "description": "Раздел химии, изучающий соединения углерода с другими элементами"
+  },
+  {
+    "id": "Anorg",
+    "title": "Неорганическая химия",
+    "parent": "Chem",
+    "related": [
+      ""
+    ],
+    "description": "Раздел химии, изучающий строение, свойства и реакции всех химических элементов и соединений, кроме тех, что относятся к органическим"
+  },
+  {
+    "id": "Bio",
+    "title": "Биология",
+    "parent": "",
+    "related": [
+      ""
+    ],
+    "description": "Наука о живых организмах"
+  },
+  {
+    "id": "Biochem",
+    "title": "Биохимия",
+    "parent": "Bio",
+    "related": [
+      "Org",
+      "Anorg"
+    ],
+    "description": "Наука, изучающая химический состав живых организмов, структуру биомолекус и химические процессы"
+  },
+  {
+    "id": "Phys",
+    "title": "Физика",
+    "parent": "",
+    "related": [
+      "Org"
+    ],
+    "description": "Наука об общих законах природы"
+  },
+  {
+    "id": "Philosophy",
+    "title": "Философия",
+    "parent": "",
+    "related": [
+      ""
+    ],
+    "description": "Любовь к мудрости"
+  },
+  {
+    "id": "History",
+    "title": "История",
+    "parent": "",
+    "related": [
+      ""
+    ],
+    "description": "Наука об человеческом прошлом"
+  },
+  {
+    "id": "Test",
+    "title": "Lorem Ipsum",
+    "parent": "History",
+    "related": [
+      "Chem",
+      "Philosophy"
+    ],
+    "description": "Lorem ipsum dolor sit amet"
+  }
 ]
